@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CalendarApp.App">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1271" height="831"/>
+    </constraints>
+    <properties>
+      <background color="-5441537"/>
+      <opaque value="true"/>
+      <preferredSize width="730" height="152"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="991fb" binding="MondayScroll">
+        <constraints>
+          <grid row="1" column="1" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="c9db9" class="javax.swing.JTextArea" binding="textMon">
+            <constraints/>
+            <properties>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="6dd21" binding="TuesScroll">
+        <constraints>
+          <grid row="1" column="2" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="bb258" class="javax.swing.JTextArea" binding="textTues">
+            <constraints/>
+            <properties>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="18e6f" binding="WedScroll">
+        <constraints>
+          <grid row="1" column="3" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="aebae" class="javax.swing.JTextArea" binding="textWed">
+            <constraints/>
+            <properties>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="2b7c6" binding="ThurScroll">
+        <constraints>
+          <grid row="1" column="4" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="30935" class="javax.swing.JTextArea" binding="textThurs">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="9e1fd" binding="FriScroll">
+        <constraints>
+          <grid row="1" column="5" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="844f7" class="javax.swing.JTextArea" binding="textFri">
+            <constraints/>
+            <properties>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="ea2e5" binding="SatScroll">
+        <constraints>
+          <grid row="1" column="6" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="dbf1f" class="javax.swing.JTextArea" binding="textSat">
+            <constraints/>
+            <properties>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="9d348" binding="SunScroll">
+        <constraints>
+          <grid row="1" column="7" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="3.0" weighty="10.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="e7600" class="javax.swing.JTextArea" binding="textSun">
+            <constraints/>
+            <properties>
+              <background color="-3107"/>
+              <font name="Arial" size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="bdc94" class="javax.swing.JButton" binding="NextPage">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <font name="Arial" size="12" style="1"/>
+          <opaque value="false"/>
+          <text value="Next"/>
+        </properties>
+      </component>
+      <component id="f3562" class="javax.swing.JButton" binding="NinjaButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusable value="true"/>
+          <font name="Arial" size="16" style="1"/>
+          <opaque value="false"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Ninja"/>
+        </properties>
+      </component>
+      <scrollpane id="89273">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="2b924" class="javax.swing.JFormattedTextField" binding="mondayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Monday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="d225e">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="9ce22" class="javax.swing.JFormattedTextField" binding="tuesdayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Tuesday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="210c2">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="7235e" class="javax.swing.JFormattedTextField" binding="wednesdayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Wednesday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="c86c6">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="44e21" class="javax.swing.JFormattedTextField" binding="thursdayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Thursday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="22">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="3083a" class="javax.swing.JFormattedTextField" binding="fridayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Friday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="11538">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="e12c5" class="javax.swing.JFormattedTextField" binding="saturdayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Saturday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="3f899">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="23034" class="javax.swing.JFormattedTextField" binding="sundayFormattedTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-7089921"/>
+              <editable value="false"/>
+              <font name="Arial" size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Sunday"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="acb5e" class="javax.swing.JButton" binding="BeachColorButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Arial" size="16" style="1"/>
+          <opaque value="false"/>
+          <text value="Beach"/>
+        </properties>
+      </component>
+      <component id="4ba3b" class="javax.swing.JButton" binding="PreviousPage">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <opaque value="false"/>
+          <text value="Prev"/>
+        </properties>
+      </component>
+      <component id="70336" class="javax.swing.JButton" binding="CalcButton">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <enabled value="true"/>
+          <font name="Arial" size="12" style="1"/>
+          <opaque value="false"/>
+          <text value="Calc"/>
+        </properties>
+      </component>
+      <component id="69a48" class="javax.swing.JButton" binding="logOutButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <actionCommand value="logOutButton"/>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <opaque value="false"/>
+          <text value="Logout Button"/>
+        </properties>
+      </component>
+      <component id="53c84" class="javax.swing.JButton" binding="StartRegistrationButton">
+        <constraints>
+          <grid row="10" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-45743"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <font name="Arial" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Edit Users"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="7b24e" class="javax.swing.JComboBox" binding="comboUsers">
+        <constraints>
+          <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="527b6" class="javax.swing.JButton" binding="GrizzlyButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="true"/>
+          <font name="Arial" size="16" style="1"/>
+          <hideActionText value="false"/>
+          <opaque value="false"/>
+          <text value="Grizzly"/>
+        </properties>
+      </component>
+      <component id="d0e4f" class="javax.swing.JButton" binding="SunshineButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <font name="Arial" size="16" style="1"/>
+          <opaque value="false"/>
+          <text value="Sunshine"/>
+        </properties>
+      </component>
+      <component id="43872" class="javax.swing.JButton" binding="purpleButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <font name="Arial" size="16" style="1"/>
+          <opaque value="false"/>
+          <text value="Purple"/>
+        </properties>
+      </component>
+      <component id="f52bf" class="javax.swing.JButton" binding="OceanButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <font name="Arial" size="16" style="1"/>
+          <opaque value="false"/>
+          <text value="Ocean"/>
+        </properties>
+      </component>
+      <component id="99e11" class="javax.swing.JButton" binding="MintButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <font name="Arial" size="16" style="1"/>
+          <opaque value="false"/>
+          <text value="Mint"/>
+        </properties>
+      </component>
+      <component id="f56e4" class="javax.swing.JButton" binding="listButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5441537"/>
+          <borderPainted value="false"/>
+          <font name="Arial" size="12" style="1"/>
+          <opaque value="false"/>
+          <text value="List"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
